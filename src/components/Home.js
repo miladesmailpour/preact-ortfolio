@@ -32,7 +32,7 @@ const Home = () => {
     <div>
       <Header />
       <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* {renderPage()} */}
+      {renderPage()}
       <Footer />
     </div>
   );
