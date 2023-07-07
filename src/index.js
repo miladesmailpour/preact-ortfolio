@@ -1,11 +1,11 @@
 import React from "react";
-// import ReactDOM from 'react-dom/client';
+// import ReactDOM from 'react-dom/client'; // react 18
 import { render } from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-// const root = ReactDOM.createRoot(document.getElementById('root'));
+// const root = ReactDOM.createRoot(document.getElementById('root')); // react 18
 const root = document.getElementById("root");
 render(
   <React.StrictMode>
@@ -13,6 +13,7 @@ render(
   </React.StrictMode>,
   root
 );
+// react 18
 // root.render(
 //   <React.StrictMode>
 //     <App />
