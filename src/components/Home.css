@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10% 0;
+  background: darkcyan;
+}
+header {
+  position: fixed;
+  top: 0;
+  height: 10%;
+  width: 100%;
+}
+#navbar-container {
+  position: fixed;
+  top: 10%;
+  right: 0;
+  flex: 1 0 200px;
+  background-color: aquamarine;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+}

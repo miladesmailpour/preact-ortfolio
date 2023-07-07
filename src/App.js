@@ -1,6 +1,6 @@
 import './App.css';
-import PortfolioContainer from './components/Home';
+import Home from './components/Home';
 
-const App = () => <PortfolioContainer />;
+const App = () => <Home />;
 
 export default App;
