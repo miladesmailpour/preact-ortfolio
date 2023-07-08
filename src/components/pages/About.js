@@ -6,6 +6,7 @@ const About = () => {
     <main>
       <div>
         <h1>About Page</h1>
+        <div>
         <p>
           Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
           Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
@@ -132,6 +133,7 @@ const About = () => {
           cursus in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit
           at.
         </p>
+        </div>
       </div>
     </main>
   );
