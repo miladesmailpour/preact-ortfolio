@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = ({ currentPage, handlePageChange }) => {
   return (
     <div id="navbar-container">
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-pills">
         <li className="nav-item">
           <a
             href="#about"
@@ -35,7 +35,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
             Contact
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item dropdown">
           <a
             href="#resume"
             onClick={() => handlePageChange("Resume")}

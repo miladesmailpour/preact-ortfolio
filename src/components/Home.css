@@ -1,6 +1,9 @@
-:root{
-  --header-color:rgba(30, 30, 154, 0.92) ;
+:root {
+  --header-color: rgba(30, 30, 154, 0.92);
   --header-img-shadow: rgba(0, 0, 255, 0.2);
+  --navbar-color: aliceblue;
+  --navbar-bg:rgba(51, 51, 204, 0.82);
+  --main-font-color: var(--header-color);
 }
 main {
   display: flex;
@@ -8,7 +11,8 @@ main {
   justify-content: center;
   margin: 7.5rem 0 6rem 0;
   padding: 10px;
-  background: darkcyan;
+  /* background: darkcyan; */
+  color: var(--main-font-color);
 }
 header {
   position: fixed;
@@ -25,7 +29,7 @@ header {
   background-size: cover;
   border: 0.2rem solid var(--header-color);
 }
-header img{
+header img {
   width: 5rem;
   padding-left: 10px auto;
   border: 1px dotted var(--header-color);
@@ -39,13 +43,18 @@ header h1 {
 }
 #navbar-container {
   position: fixed;
-  top: 6rem;
-  right: 0;
+  top: 5.9rem;
+  right: 1rem;
   flex: 1 0 200px;
   border: 0.2rem solid var(--header-color);
   border-radius: 5px;
-  background-color: darkcyan;
-  color: aliceblue;
+  background-color: var(--navbar-bg);
+  padding: 0.2rem;
+}
+#navbar-container a {
+  color: var(--navbar-color);
+  font-weight: bold;
+  text-shadow: 2px 2px 2px 1px var(--navbar-bg);
 }
 footer {
   position: fixed;
