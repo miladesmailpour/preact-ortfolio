@@ -2,8 +2,9 @@
   --header-color: rgba(30, 30, 154, 0.92);
   --header-img-shadow: rgba(0, 0, 255, 0.2);
   --navbar-color: aliceblue;
-  --navbar-bg:rgba(51, 51, 204, 0.82);
-  --main-font-color: var(--header-color);
+  --navbar-bgc: rgba(51, 51, 204, 0.82);
+  --main-font-color: rgba(30, 30, 154, 0.92);
+  --main-child-bgc: rgba(240, 255, 255, 0.5);
 }
 main {
   display: flex;
@@ -13,6 +14,14 @@ main {
   padding: 10px;
   /* background: darkcyan; */
   color: var(--main-font-color);
+}
+main > div:first-child {
+  margin: 3% 10% 5% 10%;
+  /* border: 3px solid blue; */
+  border-radius: 5px;
+  padding: 5px;
+  /* background-color: var(--main-child-bgc); */
+  /* box-shadow: 2px 2px 2px 1px var(--header-img-shadow); */
 }
 header {
   position: fixed;
@@ -28,6 +37,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   border: 0.2rem solid var(--header-color);
+  border-radius: 5px;
 }
 header img {
   width: 5rem;
@@ -48,13 +58,13 @@ header h1 {
   flex: 1 0 200px;
   border: 0.2rem solid var(--header-color);
   border-radius: 5px;
-  background-color: var(--navbar-bg);
+  background-color: var(--navbar-bgc);
   padding: 0.2rem;
 }
 #navbar-container a {
   color: var(--navbar-color);
   font-weight: bold;
-  text-shadow: 2px 2px 2px 1px var(--navbar-bg);
+  text-shadow: 2px 2px 2px 1px var(--navbar-bgc);
 }
 footer {
   position: fixed;

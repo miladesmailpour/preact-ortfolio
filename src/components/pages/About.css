@@ -1,1 +1,34 @@
+:root {
+  --w-s-tr: rgba(0, 0, 0, 0.3);
+  --w-s-th: rgba(42, 27, 204, 0.9);
+  --about-content-border:rgba(0, 0, 255, 0.2);
+  --about-content-bgc:rgba(0, 0, 255, 0.04);
+}
+#about-title {
+  /* background-color: aqua; */
+  /* position: fixed; */
+}
+#about-content {
+  background-color: var(--about-content-bgc);
+  padding: 10px 30px;
+  margin-top: 1rem;
+  overflow: auto;
+  height: 27rem;
+  border-radius: 10px;
+  border: 1px solid var(--about-content-border);
+  box-shadow: 2px 2px 2px 1px var(--about-content-border);
+}
 
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px var(--w-s-tr);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px var(--w-s-th);
+}

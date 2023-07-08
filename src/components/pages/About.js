@@ -5,8 +5,8 @@ const About = () => {
   return (
     <main>
       <div>
-        <h1>About Page</h1>
-        <div>
+        <h1 id="about-title">About Page</h1>
+        <div id="about-content">
         <p>
           Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
           Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
