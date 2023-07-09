@@ -1,22 +1,22 @@
 :root {
   --w-s-tr: rgba(0, 0, 0, 0.3);
   --w-s-th: rgba(42, 27, 204, 0.9);
-  --about-content-border: rgba(0, 0, 255, 0.2);
-  --about-content-bgc: rgba(255, 255, 255, 0.7);
+  --resume-content-border: rgba(0, 0, 255, 0.2);
+  --resume-content-bgc: rgba(255, 255, 255, 0.7);
 }
-#about-title {
+#resume-title {
   /* background-color: aqua; */
   /* position: fixed; */
 }
-#about-content {
-  background-color: var(--about-content-bgc);
+#resume-content {
+  background-color: var(--resume-content-bgc);
   padding: 10px 30px;
   margin-top: 1rem;
   overflow: auto;
   height: 27rem;
   border-radius: 10px;
-  border: 1px solid var(--about-content-border);
-  box-shadow: 2px 2px 2px 1px var(--about-content-border);
+  border: 1px solid var(--resume-content-border);
+  box-shadow: 2px 2px 2px 1px var(--resume-content-border);
 }
 
 ::-webkit-scrollbar {
@@ -34,9 +34,8 @@
 }
 
 @media screen and ((max-width: 768px) or (min-height: 1000px)) {
-  #about-content {
+  #resume-content {
     overflow: hidden;
     height: 100%;
   }
 }
-
