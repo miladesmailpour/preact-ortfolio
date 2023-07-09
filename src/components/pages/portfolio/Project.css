@@ -1,8 +1,13 @@
 :root {
   --project-content-border: rgba(0, 0, 255, 0.3);
+  --project-a-color: rgba(0, 0, 255, 0.591);
+  --project-p-color: white;
   --project-content-bgc: rgba(255, 255, 255, 0.7);
 }
-
+.project a {
+    text-decoration: none;
+    color: var(--project-a-color);
+}
 .project {
   margin: 1rem;
   border-radius: 10px;
@@ -13,6 +18,18 @@
 }
 .project img {
   width: 30rem;
+  padding: 0 2px;
 }
 .project p {
+    text-align: right;
+    position: relative;
+    top: -1.6rem;
+    /* right: 10px; */
+    color: var(--project-p-color);
+    /* background-color: var(--project-a-color); */
+}
+.project span{
+        background-color: var(--project-a-color);
+        padding: 5px;
+        border-radius: 5px;
 }
