@@ -1,0 +1,19 @@
+:root{
+    --portfolio-content-border:rgba(0, 0, 255, 0.2);
+    --portfolio-content-bgc:rgba(255, 255, 255, 0.7);
+}
+
+#portfolio-title {
+  /* background-color: aqua; */
+  /* position: fixed; */
+}
+/* #portfolio-content {
+  background-color: var(--portfolio-content-bgc);
+  padding: 10px 30px;
+  margin-top: 1rem;
+  overflow: auto;
+  height: 27rem;
+  border-radius: 10px;
+  border: 1px solid var(--portfolio-content-border);
+  box-shadow: 2px 2px 2px 1px var(--portfolio-content-border);
+} */

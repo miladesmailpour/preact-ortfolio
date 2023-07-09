@@ -1,11 +1,12 @@
 import React from "react";
+import "./Portfolio.css";
 import ProjectList from "./portfolio/ProjectList";
 
 const Portfolio = () => {
   return (
     <main>
       <div>
-        <h1>Portfolio</h1>
+        <h1 id="portfolio-title">Portfolio</h1>
         <ProjectList />
       </div>
     </main>

@@ -1,0 +1,18 @@
+:root {
+  --project-content-border: rgba(0, 0, 255, 0.3);
+  --project-content-bgc: rgba(255, 255, 255, 0.7);
+}
+
+.project {
+  margin: 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--project-content-border);
+  box-shadow: 2px 2px 2px 1px var(--project-content-border);
+}
+.project h2 {
+}
+.project img {
+  width: 30rem;
+}
+.project p {
+}
