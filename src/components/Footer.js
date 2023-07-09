@@ -1,21 +1,19 @@
 import React from "react";
 
-const styles = {
-  headerStyle: {
-    background: "red",
-  },
-  headingStyle: {
-    fontSize: "100px",
-  },
-};
-
-const Header = () => {
+const Footer = () => {
   return (
-    <footer style={styles.headerStyle} className="header">
-      <a href="https://github.com/miladesmailpour/">GitHub</a>
-      <a href="https://www.linkedin.com/in/milad-esmaeelpour/">Linkedin</a>
+    <footer>
+      <div>
+        <a href="https://github.com/miladesmailpour/">GitHub</a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/milad-esmaeelpour/">Linkedin</a>
+      </div>
+      <div>
+        <a href="https://twitter.com/MiladEsmailpour/">Twitter</a>
+      </div>
     </footer>
   );
 };
 
-export default Header;
+export default Footer;
