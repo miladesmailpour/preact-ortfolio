@@ -48,6 +48,15 @@ const ProjectsInfo = [
     decs: "Manage your work day (JavaScript, HTML, CSS)",
     url: "https://miladesmailpour.github.io/worker-day-scheduler/",
   },
+  {
+    title: "Regex Tutorial",
+    img: {
+      url: "./img/regex.png",
+      alt: "regex tutorial",
+    },
+    decs: "demonstrate the defination of the Regex (GitHub, Regex)",
+    url: "https://gist.github.com/miladesmailpour/8eca0b7092012fa57701214c960deff6/",
+  },
 ];
 
 const ProjectList = () => {

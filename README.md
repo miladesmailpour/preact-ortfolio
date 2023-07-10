@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+- A portfolio is crucial for showcasing skills and knowledge effectively.
 
-In the project directory, you can run:
+- Helping demonstrates expertise and facilitates effective showcasing of skills.
 
-### `npm start`
+- a React Portfolio application (Only front-end)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React, Hook, Components, software design and architecture, async/await, and more
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
 
-### `npm test`
+- [How To Use](#how-to-use)
+- [Installation](#installation)
+- [Acceptance_Criteria](#acceptance-criteria)
+- [Helpful Resources](#helpful-resources)
+- [How to Contribute](#how-to-contribute)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How To Use
 
-### `npm run build`
+[Link to the portfolio, deploy on GitHub](https://miladesmailpour.github.io/react-portfolio/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Alt text](./public/img/screenshot.png "Portfolio Screen shot.")
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+npm start
 
-### `npm run eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## User Story
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```md
+AS AN employer looking for candidates with experience building single-page applications
+I WANT to view a potential employee's deployed React portfolio of work samples
+SO THAT I can assess whether they're a good candidate for an open position
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acceptance Criteria
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```md
+GIVEN a single-page application portfolio for a web developer
+WHEN I load the portfolio
+THEN I am presented with a page containing a header, a section for content, and a footer
+WHEN I view the header
+THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+WHEN I view the navigation titles
+THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+WHEN I click on a navigation title
+THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+WHEN I load the portfolio the first time
+THEN the About Me title and section are selected by default
+WHEN I am presented with the About Me section
+THEN I see a recent photo or avatar of the developer and a short bio about them
+WHEN I am presented with the Portfolio section
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repositories
+WHEN I am presented with the Contact section
+THEN I see a contact form with fields for a name, an email address, and a message
+WHEN I move my cursor out of one of the form fields without entering text
+THEN I receive a notification that this field is required
+WHEN I enter text into the email address field
+THEN I receive a notification if I have entered an invalid email address
+WHEN I am presented with the Resume section
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+WHEN I view the footer
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Helpful Resources
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Use the Production Build](https://legacy.reactjs.org/docs/optimizing-performance.html#use-the-production-build)
 
-### Code Splitting
+## How to Contribute
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Challenges repository
+This is an open-source project Licensed by MIT which allows you to contribute and used open source codes used in this repo (All Branches).
+More info: https://g.co/kgs/QWcHhF
 
-### Analyzing the Bundle Size
+- Branches are named as modules [n] and each is a unique challenge.
+- Master Branch contains the last solved challenge. (the read me you are reading through, is a default guide when NO challenge is available to help you do a pre-setup.)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# How to use the module and deploy
 
-### Making a Progressive Web App
+- Clone the repo and make it own
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  # Https URL :
 
-### Advanced Configuration
+        git clone https://github.com/miladesmailpour/social-network-api.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  # ssh URL :
 
-### Deployment
+        git clone git@github.com:miladesmailpour/social-network-api.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  # Checking the fetch/pull and push URL :
 
-### `npm run build` fails to minify
+        git remote -v
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  # Modifing origin URL :
+
+        git remote add origin [https/ssh URL of your repo] https://docs.github.com/en/get-started/quickstart/create-a-repo
+
+  # Verifing the fetch/pull and push URL :
+
+        git remote -v https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories
+
+  # Chacking the status of local :
+
+        git status
+
+        "if local NOT updated"
+        git add .
+        git commit -m "[your comment]"
+        git push origin master/main
+
+- Checkout the module (the challenge you want to use and deploy)
+  # Checkout to the desired challenge :
+       git checkout module[n]
+  # Verifing :
+       git status
+  # [Make the change you wish to have]
+       What do you think needs to improve?
+  # Commiting to local and updating the GitHub repo:
+         git add .
+         git commit -m "[your comment]"
+         git push origin [your module name]
+- Moving Modules to Master Branch and deploying:
+  # Creating a pull request to update the master/main :
+       https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+  # Deploy through the GitHub :
+       https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
