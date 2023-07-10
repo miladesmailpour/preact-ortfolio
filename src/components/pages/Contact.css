@@ -1,0 +1,52 @@
+:root {
+  --input-shadow: rgba(0, 0, 255, 0.2);
+  --submit-text-color: rgba(0, 0, 255, 0.5);
+}
+#contact-container {
+  width: 70vw;
+  margin: 0 auto 0;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+input,
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+  box-shadow: 2px 2px 2px 1px var(--input-shadow);
+  display: block;
+}
+textarea {
+  border-left: 1px solid blue;
+  border-right: 1px solid blue;
+  margin-top: 1rem;
+  height: 15rem;
+}
+input {
+  border-bottom: 1px solid blue;
+}
+.error-text {
+  padding-left: 1rem;
+  color: red;
+}
+.submit-text {
+  color: var(--submit-text-color);
+}
+#submit-msg {
+  text-align: center;
+  color: blue;
+}
+@media screen and (max-width: 768px) {
+  #contact-container {
+    width: 90vw;
+  }
+}
