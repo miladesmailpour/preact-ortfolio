@@ -35,7 +35,7 @@ header {
   flex-wrap: wrap;
   justify-content: left;
   align-items: center;
-  background-image: url("../../public/bg-header.png");
+  background-image: url("../../public/img/bg-header.png");
   background-repeat: no-repeat;
   background-size: cover;
   border: 0.2rem solid var(--header-color);

@@ -6,7 +6,7 @@ const ProjectsInfo = [
   {
     title: "Project 1",
     img: {
-      url: "./test.jpg",
+      url: "./img/test.jpg",
       alt: "Project 1",
     },
     decs: "Project 1 tech used: JavaScript",
@@ -14,7 +14,7 @@ const ProjectsInfo = [
   {
     title: "Project 2",
     img: {
-      url: "./test.jpg",
+      url: "./img/test.jpg",
       alt: "Project 2",
     },
     decs: "Project 2 tech used: JavaScript",
@@ -22,7 +22,7 @@ const ProjectsInfo = [
   {
     title: "Project 1",
     img: {
-      url: "./test.jpg",
+      url: "./img/test.jpg",
       alt: "Project 1",
     },
     decs: "Project 1 tech used: JavaScript",
@@ -30,7 +30,7 @@ const ProjectsInfo = [
   {
     title: "Project 2",
     img: {
-      url: "./test.jpg",
+      url: "./img/test.jpg",
       alt: "Project 2",
     },
     decs: "Project 2 tech used: JavaScript",
@@ -38,7 +38,7 @@ const ProjectsInfo = [
   {
     title: "Project 1",
     img: {
-      url: "./test.jpg",
+      url: "./img/test.jpg",
       alt: "Project 1",
     },
     decs: "Project 1 tech used: JavaScript",
@@ -46,7 +46,7 @@ const ProjectsInfo = [
   {
     title: "Project 2",
     img: {
-      url: "./test.jpg",
+      url: "./img/test.jpg",
       alt: "Project 2",
     },
     decs: "Project 2 tech used: JavaScript",

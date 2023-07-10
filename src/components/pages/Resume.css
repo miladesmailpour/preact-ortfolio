@@ -3,11 +3,20 @@
   --w-s-th: rgba(42, 27, 204, 0.9);
   --resume-content-border: rgba(0, 0, 255, 0.2);
   --resume-content-bgc: rgba(255, 255, 255, 0.7);
+  --resume-img-url: url(../../../public/img/download.gif);
 }
+#resume {
+  position: relative;
+  top: -3rem;
+}
+
 #resume-title {
   /* background-color: aqua; */
   /* position: fixed; */
+  position: relative;
+  top: 3.5rem;
 }
+
 #resume-content {
   background-color: var(--resume-content-bgc);
   padding: 10px 30px;
@@ -17,6 +26,23 @@
   border-radius: 10px;
   border: 1px solid var(--resume-content-border);
   box-shadow: 2px 2px 2px 1px var(--resume-content-border);
+}
+
+#resume-img {
+  position: relative;
+}
+
+#resume-img img {
+  width: 4rem;
+  border-radius: 50%;
+}
+
+#resume-link {
+  text-align: right;
+}
+
+#resume-link h5 {
+  margin: 0;
 }
 
 ::-webkit-scrollbar {

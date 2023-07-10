@@ -6,9 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(212, 211, 251, 0.2)), url(../public/bg.png); */
-  background-image: url(../public/bg.png);
+  background-image: url(../public/img/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 code {
