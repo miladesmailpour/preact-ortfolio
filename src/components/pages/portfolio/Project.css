@@ -32,7 +32,7 @@
 }
 .project p {
   text-align: center;
-  position: relative;
+  /* position: relative; */
   top: 0.5rem;
   color: var(--project-p-color);
   background-color: #4494e8;
