@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/miladesmailpour/react-portfolio.git/static/css/main.ea2f5024.css",
+    "main.js": "/miladesmailpour/react-portfolio.git/static/js/main.a5ceb122.js",
+    "static/js/787.a2cb61a6.chunk.js": "/miladesmailpour/react-portfolio.git/static/js/787.a2cb61a6.chunk.js",
+    "static/media/bg.png": "/miladesmailpour/react-portfolio.git/static/media/bg.8ca9b4600d1992a8f186.png",
+    "static/media/download.gif": "/miladesmailpour/react-portfolio.git/static/media/download.0abe5d4f1c301b0bd69e.gif",
+    "static/media/bg-header.png": "/miladesmailpour/react-portfolio.git/static/media/bg-header.534aa530048b97ff9b07.png",
+    "index.html": "/miladesmailpour/react-portfolio.git/index.html",
+    "main.ea2f5024.css.map": "/miladesmailpour/react-portfolio.git/static/css/main.ea2f5024.css.map",
+    "main.a5ceb122.js.map": "/miladesmailpour/react-portfolio.git/static/js/main.a5ceb122.js.map",
+    "787.a2cb61a6.chunk.js.map": "/miladesmailpour/react-portfolio.git/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea2f5024.css",
+    "static/js/main.a5ceb122.js"
+  ]
+}
