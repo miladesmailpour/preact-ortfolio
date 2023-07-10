@@ -4,17 +4,19 @@ import "./Resume.css";
 const Resume = () => {
   return (
     <main>
-      <div id="resume">
-        <h2 id="resume-title">Work Experience</h2>
-        <div id="resume-link">
-          <div id="resume-img">
-            <a
-              href="https://drive.google.com/file/d/1LyZq6sUOL_njLFi6-8av2H4gRmwz17KT/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src="./img/download.gif" alt="PDF" />
-            </a>
+      <div>
+        <div id="resume">
+          <h2 id="resume-title">Work Experience</h2>
+          <div id="resume-link">
+            <div id="resume-img">
+              <a
+                href="https://drive.google.com/file/d/1LyZq6sUOL_njLFi6-8av2H4gRmwz17KT/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="./img/download.gif" alt="PDF" />
+              </a>
+            </div>
           </div>
         </div>
         <div id="resume-content">

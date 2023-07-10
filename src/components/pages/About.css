@@ -5,8 +5,7 @@
   --about-content-bgc: rgba(255, 255, 255, 0.7);
 }
 #about-title {
-  /* background-color: aqua; */
-  /* position: fixed; */
+  
 }
 #about-content {
   background-color: var(--about-content-bgc);

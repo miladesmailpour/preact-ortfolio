@@ -6,14 +6,17 @@
   --resume-img-url: url(../../../public/img/download.gif);
 }
 #resume {
-  position: relative;
-  top: -3rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #resume-title {
   /* background-color: aqua; */
   /* position: fixed; */
-  position: relative;
+  /* position: relative; */
   top: 3.5rem;
 }
 
@@ -29,7 +32,7 @@
 }
 
 #resume-img {
-  position: relative;
+  /* position: relative; */
 }
 
 #resume-img img {
@@ -63,5 +66,10 @@
   #resume-content {
     overflow: hidden;
     height: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #resume {
+    top: -1rem;
   }
 }

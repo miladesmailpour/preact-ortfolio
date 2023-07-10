@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <main>
       <div>
-        <h1 id="portfolio-title">Portfolio</h1>
+        {/* <h2 id="portfolio-title">Portfolio</h2> */}
         <ProjectList />
       </div>
     </main>

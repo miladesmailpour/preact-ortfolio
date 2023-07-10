@@ -4,52 +4,49 @@ import Project from "./Project";
 
 const ProjectsInfo = [
   {
-    title: "Project 1",
+    title: "COTER",
     img: {
-      url: "./img/test.jpg",
-      alt: "Project 1",
+      url: "./img/coter.png",
+      alt: "coter",
     },
-    decs: "Project 1 tech used: JavaScript",
+    decs: "Social Media Paltform (Express, MYSQL, etc.)",
+    url: "https://coter-app-ead89d3057b0.herokuapp.com/",
   },
   {
-    title: "Project 2",
+    title: "Quiz",
     img: {
-      url: "./img/test.jpg",
-      alt: "Project 2",
+      url: "./img/quiz.png",
+      alt: "Quiz",
     },
-    decs: "Project 2 tech used: JavaScript",
+    decs: "A online quiz (JavaScript, HTML, CSS)",
+    url: "https://miladesmailpour.github.io/quiz-code/",
   },
   {
-    title: "Project 1",
+    title: "Note Taker",
     img: {
-      url: "./img/test.jpg",
-      alt: "Project 1",
+      url: "./img/note.png",
+      alt: "note taker",
     },
-    decs: "Project 1 tech used: JavaScript",
+    decs: "Organize the daily Notes (Express, Heroku)",
+    url: "https://morning-fortress-95302.herokuapp.com/notes",
   },
   {
-    title: "Project 2",
+    title: "Weather Dashboard",
     img: {
-      url: "./img/test.jpg",
-      alt: "Project 2",
+      url: "./img/weather.png",
+      alt: "Weather Dashboard",
     },
-    decs: "Project 2 tech used: JavaScript",
+    decs: "Keep track of Weather (JavaScript, HTML, CSS)",
+    url: "https://miladesmailpour.github.io/weather-dashboard/",
   },
   {
-    title: "Project 1",
+    title: "Worker Day Scheduler",
     img: {
-      url: "./img/test.jpg",
-      alt: "Project 1",
+      url: "./img/scheduler.png",
+      alt: "worker day scheduler",
     },
-    decs: "Project 1 tech used: JavaScript",
-  },
-  {
-    title: "Project 2",
-    img: {
-      url: "./img/test.jpg",
-      alt: "Project 2",
-    },
-    decs: "Project 2 tech used: JavaScript",
+    decs: "Manage your work day (JavaScript, HTML, CSS)",
+    url: "https://miladesmailpour.github.io/worker-day-scheduler/",
   },
 ];
 
@@ -57,7 +54,9 @@ const ProjectList = () => {
   return (
     <div id="portfolio-content">
       {ProjectsInfo.map((pi) => {
-        return <Project title={pi.title} img={pi.img} decs={pi.decs} />;
+        return (
+          <Project title={pi.title} img={pi.img} decs={pi.decs} url={pi.url} />
+        );
       })}
     </div>
   );

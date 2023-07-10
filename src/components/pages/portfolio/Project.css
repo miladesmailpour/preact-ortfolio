@@ -3,10 +3,11 @@
   --project-a-color: rgba(0, 0, 255, 0.591);
   --project-p-color: white;
   --project-content-bgc: rgba(255, 255, 255, 0.7);
+  --project-header-bgc: rgba(16, 131, 232, 0.7);
 }
 .project a {
-    text-decoration: none;
-    color: var(--project-a-color);
+  text-decoration: none;
+  color: var(--project-a-color);
 }
 .project {
   margin: 1rem;
@@ -15,21 +16,29 @@
   box-shadow: 2px 2px 2px 1px var(--project-content-border);
 }
 .project h2 {
+  padding: 0.2rem 0.6rem;
+  font-size: 1.7em;
+  font-family: Belanosima;
+  background-color: var(--project-header-bgc);
+  margin-bottom: 0.2rem;
+  color: var(--project-p-color);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
 }
 .project img {
   width: 30rem;
   padding: 0 2px;
 }
 .project p {
-    text-align: right;
-    position: relative;
-    top: -1.6rem;
-    /* right: 10px; */
-    color: var(--project-p-color);
-    /* background-color: var(--project-a-color); */
+  text-align: center;
+  position: relative;
+  top: 0.5rem;
+  color: var(--project-p-color);
+  background-color: #4494e8;
+  padding: 2px;
 }
-.project span{
-        background-color: var(--project-a-color);
-        padding: 5px;
-        border-radius: 5px;
+.project span {
+  /* background-color: var(--project-a-color); */
+  padding: 5px;
+  border-radius: 5px;
 }
