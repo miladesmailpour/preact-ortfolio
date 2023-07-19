@@ -4,13 +4,13 @@ import Project from "./Project";
 
 const ProjectsInfo = [
   {
-    title: "COTER",
+    title: "Minal Fantasy",
     img: {
-      url: "./img/coter.png",
-      alt: "coter",
+      url: "./img/p3.png",
+      alt: "Minal Fantasy",
     },
-    decs: "Social Media Paltform (Express, MYSQL, etc.)",
-    url: "https://coter-app-ead89d3057b0.herokuapp.com/",
+    decs: "Game Paltform (Express, NoSql, Graphql, etc.)",
+    url: "https://minal-fantasy-547c1b57de9f.herokuapp.com/play",
   },
   {
     title: "Quiz",
@@ -20,6 +20,15 @@ const ProjectsInfo = [
     },
     decs: "A online quiz (JavaScript, HTML, CSS)",
     url: "https://miladesmailpour.github.io/quiz-code/",
+  },
+  {
+    title: "COTER",
+    img: {
+      url: "./img/coter.png",
+      alt: "coter",
+    },
+    decs: "Social Media Paltform (Express, MYSQL, etc.)",
+    url: "https://coter-app-ead89d3057b0.herokuapp.com/",
   },
   {
     title: "Note Taker",
