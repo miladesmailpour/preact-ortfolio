@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import React from "react";
 import { validateEmail } from "../../utils/helper";
 import "./Contact.css";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
@@ -49,13 +51,29 @@ const Contact = () => {
     setEmail("");
     setMessage("");
     alert("Your email was successfully sent!");
+    emailjs
+      .sendForm(
+        "service_0pqh9nj",
+        "template_yp8b3jm",
+        form.current,
+        "m4Yivp1nuvZuQ_GT9"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log(form.current);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
   return (
     <main>
       <div>
         <div id="contact-container">
           <h2>Contact</h2>
-          <form className="form">
+          <form ref={form} className="form">
             <div>
               <input
                 value={name}
