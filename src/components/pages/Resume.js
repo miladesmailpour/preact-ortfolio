@@ -10,7 +10,7 @@ const Resume = () => {
           <div id="resume-link">
             <div id="resume-img">
               <a
-                href="https://drive.google.com/file/d/1LyZq6sUOL_njLFi6-8av2H4gRmwz17KT/view?usp=sharing"
+                href="https://drive.google.com/file/d/1U5jBQBXZf4TJ0KB1g_EObPEDVnZRGCSv/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -21,68 +21,87 @@ const Resume = () => {
         </div>
         <div id="resume-content">
           <div id="resume-text">
-            <h4>StatisRing </h4>
+            <h4>TECHNICAL SKILLS</h4>
+            <ul>
+              <li>Languages: JavaScript, JAVA, PHP</li>
+              <li>University of Applied Science and Technology</li>
+              Frameworks and Libraries: ReactJS, VueJS, React Native, NodeJS,
+              .NET, Laravel, Spring
+              <li>
+                Markup Languages/data interchange/Styling: HTML5, XML, JSON,
+                CSS3, Bootstrap, Tailwind{" "}
+              </li>
+              <li>
+                Databases: MySQL, Microsoft SQL Server, NoSQL (MongoDB, S3,
+                DynamoDB, CosmosDB)
+              </li>
+              <li>
+                Version Control Systems: Git, Microsoft Team Foundation Server
+                (TFS)
+              </li>
+              <li>
+                Design/Analysis/Test/Software Management: UML, Visual paradigm,
+                Figma, Unit Test, TDD, Jest, Selenium, dev Tools, MS SQL
+                profiler, Jira, Teams, Project Insight, Asana, Microsoft Project{" "}
+              </li>
+            </ul>
+            <h4>EXPERIENCES </h4>
+            <h6>StatisRing </h6>
             <p>
-              Develop highly interactive web applications utilizing
-              JavaScript(React.js, NodeJS) on cloud(AWS) and integrate Restful
-              APIs, and external web services ensuring high performance on
-              Mobile and Desktop. Provide SEO solutions for single-page apps. •
-              Drafted details design objectives and created architecture
-              patterns for application design, scalability, deployment, cloud,
-              monitoring, security, and infrastructure. Define static analysis
-              code quality rules to evaluate Microservices to align with the
-              future state design. Write clean, modular web-based SaaS
-              applications in an agile and ever-changing environment. Create the
-              documentation, Samples, required unit test, and integration tests.
+              As a Full-stack Developer at StatisRing, I was responsible for
+              developing and deploying highly interactive web applications
+              utilizing JavaScript (React.js, NodeJS) on AWS. My role also
+              involved integrating Restful APIs and external web services to
+              ensure optimal performance on both mobile and desktop platforms. I
+              provided SEO solutions for single-page apps and contributed to the
+              design of architecture patterns for application scalability,
+              deployment, monitoring, and security. Additionally, I established
+              static analysis code quality rules to align microservices with
+              future state design, promoting clean, modular web-based SaaS
+              applications. I collaborated with teams to create documentation,
+              samples, and necessary unit and integration tests.
             </p>
-            <h4> Giesecke+Devrient Mobile Security</h4>
+            <h4>Giesecke+Devrient Mobile Security</h4>
             <p>
-              Design and implement APIs to retrieve the written script by users
-              and apply its logic to give the user more control over its data
-              validation and customization. implement the functionality to
-              splitting the data to process parallel and merge it, based on its
-              category Design and implement a user-friendly interface to have
-              more control over the application in HSM. Design and implement the
-              table structures and relevant stored procedures to convert the
-              incoming data from APIs or flat files fed by the clients.
-              Processing the Data on HSM servers by writing down and
-              Implementing the required functionality. Controlling the data flow
-              of the retrieved and processed data to the application to use by
-              other teams. Maintaining, debugging, and writing unit tests,
-              integration tests, and end-to-end tests for the features.
+              As a Full-stack Developer at Giesecke+Devrient Mobile Security, I
+              designed and implemented APIs, utilizing REST architecture, to
+              retrieve user-written scripts and provide enhanced data validation
+              and customization control. I led the implementation of data
+              processing functionality for parallel processing and merging,
+              improving application performance. Additionally, I designed a
+              user-friendly interface for increased user control and developed
+              efficient table structures and stored procedures for managing
+              incoming data. My responsibilities included processing data on HSM
+              servers, maintaining, debugging, and writing various tests for
+              feature enhancements.
             </p>
             <h4>FocusedQ</h4>
             <p>
-              Design and implement the send invitation service using PHP and
-              Laravel framework to allow customers to use promotions that will
-              be received through email or message. Use third parties to make
-              scheduling smoother between Users(Clients and Contractors) •
-              Design and implement reusable components to handle mail invitation
-              service.to send emails Provide documentation, usable samples,
-              required unit test, and integration tests. implement advice
-              service to help customers in every step they take to make a
-              remarkable experience. implement warranty service to ensure
-              customers have all support they need even after the purchase. •
-              Design and implement Restful APIs using PHP/Laravel framework, Vue
-              components, and MySQL tables to Do it a reliable service on Azure.
+              As a Full-stack Developer at FocusedQ, I designed and implemented
+              a send invitation service using PHP and Laravel framework,
+              allowing customers to effectively utilize promotions received
+              through email or message. I collaborated with third-party services
+              to streamline scheduling processes between Users (Clients and
+              Contractors) and created reusable components for mail invitation
+              services. My role included providing documentation, usable
+              samples, required unit and integration tests, and implementing
+              GraphQL APIs for seamless software delivery.
             </p>
             <h4>10Count</h4>
             <p>
-              Design and implement a chat system with react native for trainers
-              to connect and share information and reduce the time-consuming and
-              complexity of using the different sharing systems. Implement
-              required APIs, HOCs, and data structure from scratch using MERN
-              stack, socket.io, react hooks, and lazy loading. Design and
-              implement a share location system for the clients to find the
-              location during the pandemic. integrate Maps Geocoding, Calendar,
-              WeatherAPI, COVID-19 APIs, etc. to make Intelligent UI/UX. Design
-              and implement the APIs to connect to the existing sensors to
-              collect and store the data. Transfer the data sent by the
-              Microsoft WCF to the newly designed front-end use react. implement
-              third-party APIs and components using React and Redux to Design
-              reports and charts.
+              In my role as a Front-end Developer at 10Count, I designed and
+              implemented a chat system using React Native to facilitate
+              effective communication between trainers and clients. I
+              successfully implemented the required APIs, higher-order
+              components (HOCs), and data structures using the MERN stack and
+              socket.io. Additionally, I developed a sophisticated
+              location-sharing system integrating various APIs (Geocoding,
+              Calendar, WeatherAPI, COVID-19), enhancing user experience. My
+              responsibilities also included designing and developing APIs for
+              data collection and storage and implementing third-party APIs and
+              components (React, Redux) for insightful reports and charts.
             </p>
-            <h4>Education</h4>
+            <h4>EDUCATION</h4>
             <ul>
               <li>
                 George Brown College - Advanced Diploma of Computer Programmer
