@@ -61,7 +61,7 @@ const Resume = () => {
               applications. I collaborated with teams to create documentation,
               samples, and necessary unit and integration tests.
             </p>
-            <h4>Giesecke+Devrient Mobile Security</h4>
+            <h6>Giesecke+Devrient Mobile Security</h6>
             <p>
               As a Full-stack Developer at Giesecke+Devrient Mobile Security, I
               designed and implemented APIs, utilizing REST architecture, to
@@ -75,7 +75,7 @@ const Resume = () => {
               servers, maintaining, debugging, and writing various tests for
               feature enhancements.
             </p>
-            <h4>FocusedQ</h4>
+            <h6>FocusedQ</h6>
             <p>
               As a Full-stack Developer at FocusedQ, I designed and implemented
               a send invitation service using PHP and Laravel framework,
@@ -87,7 +87,7 @@ const Resume = () => {
               samples, required unit and integration tests, and implementing
               GraphQL APIs for seamless software delivery.
             </p>
-            <h4>10Count</h4>
+            <h6>10Count</h6>
             <p>
               In my role as a Front-end Developer at 10Count, I designed and
               implemented a chat system using React Native to facilitate
