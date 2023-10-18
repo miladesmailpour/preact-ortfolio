@@ -58,10 +58,15 @@ header img {
   margin: 0 5px;
 }
 header h1 {
+  display: block;
   margin: 0 5px;
   color: var(--header-color);
   text-shadow: 2px 3px var(--header-img-shadow);
-
+}
+header h6 {
+  display: block;
+  color: var(--header-color);
+  text-shadow: 2px 3px var(--header-img-shadow);
 }
 #navbar-container {
   position: fixed;
