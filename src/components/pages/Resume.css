@@ -19,7 +19,10 @@
   /* position: relative; */
   top: 3.5rem;
 }
-
+span,
+h6 {
+  font-weight: bold;
+}
 #resume-content {
   background-color: var(--resume-content-bgc);
   padding: 10px 30px;
