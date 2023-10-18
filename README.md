@@ -22,8 +22,6 @@
 
 [Link to the portfolio, deploy on GitHub](https://miladesmailpour.github.io/react-portfolio/)
 
-![Alt text](./public/img/screenshot.png "Portfolio Screen shot.")
-
 ## Installation
 
 ```
@@ -69,7 +67,6 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
-
 
 ## Helpful Resources
 
