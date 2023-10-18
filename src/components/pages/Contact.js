@@ -7,7 +7,7 @@ import emailjs from "@emailjs/browser";
 const Contact = () => {
   const form = useRef();
   const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
+  const [title, setTitle] = useState("");
   const [message, setMessage] = useState("");
   const [formSubmit, setFormSubmit] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
@@ -19,8 +19,8 @@ const Contact = () => {
 
     if (inputType === "email") {
       setEmail(inputValue);
-    } else if (inputType === "name") {
-      setName(inputValue);
+    } else if (inputType === "title") {
+      setTitle(inputValue);
     } else {
       setMessage(inputValue);
     }
@@ -29,7 +29,7 @@ const Contact = () => {
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!name) {
+    if (!title) {
       setErrorMessage("Name is require!");
       return;
     }
@@ -43,11 +43,11 @@ const Contact = () => {
     }
 
     setFormSubmit({
-      name: name,
+      name: title,
       email: email,
       message: message,
     });
-    setName("");
+    setTitle("");
     setEmail("");
     setMessage("");
     alert("Your email was successfully sent!");
@@ -76,23 +76,14 @@ const Contact = () => {
           <form ref={form} className="form">
             <div>
               <input
-                value={name}
+                value="To: miila.maiilo@gmail.com"
+                readOnly
                 name="name"
                 onChange={handleInputChange}
                 type="text"
-                placeholder={
-                  errorMessage.includes("Name")
-                    ? errorMessage
-                    : "Please enter your name"
-                }
+                placeholder="To: miila.maiilo@gmail.com"
               />
-              {errorMessage.includes("Name") && (
-                <div>
-                  <p className="error-text">{errorMessage}</p>
-                </div>
-              )}
             </div>
-            <br />
             <div>
               <input
                 value={email}
@@ -102,10 +93,28 @@ const Contact = () => {
                 placeholder={
                   errorMessage.includes("Email")
                     ? errorMessage
-                    : "Please enter your Email"
+                    : "From: Please enter your Email"
                 }
               />
               {errorMessage.includes("Email") && (
+                <div>
+                  <p className="error-text">{errorMessage}</p>
+                </div>
+              )}
+            </div>
+            <div>
+              <input
+                value={title}
+                name="title"
+                onChange={handleInputChange}
+                type="text"
+                placeholder={
+                  errorMessage.includes("Title")
+                    ? errorMessage
+                    : "Please enter your Subject"
+                }
+              />
+              {errorMessage.includes("Title") && (
                 <div>
                   <p className="error-text">{errorMessage}</p>
                 </div>
