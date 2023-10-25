@@ -10,7 +10,7 @@ const Resume = () => {
           <div id="resume-link">
             <div id="resume-img">
               <a
-                href="https://drive.google.com/file/d/1DT81mnQwMXoGW1b96pGCUykCsGW_fEtJ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1hhD0exn1hFVnQMyGHLf91wBeNJTko7fd/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -107,28 +107,34 @@ const Resume = () => {
             <h4>EDUCATION</h4>
             <ul>
               <li>
-                <span>Boot Camp Certificate: UofT SCS Coding Boot Camp,</span> Toronto, ON A
-                24-week intensive program focused on gaining technical
-                programming skills in HTML5, CSS3, Javascript, JQuery,
+                <span>Boot Camp Certificate: UofT SCS Coding Boot Camp,</span>{" "}
+                Toronto, ON A 24-week intensive program focused on gaining
+                technical programming skills in HTML5, CSS3, Javascript, JQuery,
                 Bootstrap, Firebase, Node.js, MySQL, MongoDB, QrapgQL, Express,
                 ReactJS. Unit Test, TDD, Jest, etc.
               </li>
               <li>
-                <span>Advanced Diploma: George Brown College,</span> Toronto, ON A 3-year
-                intensive program, focused on gaining technical programming and
-                analyzing skills in Algorithms and Data Structures, Java,
-                Python, Javascript, C#, Oracle, MySQL, AWS, Heroku, Restful,
-                .Net, Spring, Laravel, Unit Test, TDD, Jest, etc.
+                <span>Advanced Diploma: George Brown College,</span> Toronto, ON
+                A 3-year intensive program, focused on gaining technical
+                programming and analyzing skills in Algorithms and Data
+                Structures, Java, Python, Javascript, C#, Oracle, MySQL, AWS,
+                Heroku, Restful, .Net, Spring, Laravel, Unit Test, TDD, Jest,
+                etc.
               </li>
               <li>
-                <span>Software Engineering Bachelor: University of Applied Science and
-                Technology,</span> Tehran, TA, 4-year intensive program, focused on
-                gaining technical skills in System Design, Software
-                Architecture, Problem-solving, Project Management, Team
-                Collaboration, Algorithms and Data Structures, Software Testing,
-                Software Design Patterns, Database Management, etc.
+                <span>
+                  Software Engineering Bachelor: University of Applied Science
+                  and Technology,
+                </span>{" "}
+                Tehran, TA, 4-year intensive program, focused on gaining
+                technical skills in System Design, Software Architecture,
+                Problem-solving, Project Management, Team Collaboration,
+                Algorithms and Data Structures, Software Testing, Software
+                Design Patterns, Database Management, etc.
               </li>
-              <li><span>ITC College</span> - Database Certificate Oracle 9i</li>
+              <li>
+                <span>ITC College</span> - Database Certificate Oracle 9i
+              </li>
             </ul>
           </div>
         </div>
